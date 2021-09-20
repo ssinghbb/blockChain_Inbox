@@ -20,7 +20,7 @@ beforeEach(async()=>{
     // Use one of the Account to deploy the contract
   contract = await new web3.eth.Contract(JSON.parse(interface))
     .deploy({data:bytecode , arguments:['Hello World!']})
-    .send({from:accounts[0],gas:'1000000'});
+    .send({from:accounts[0],gas:'1000000',  gasPrice: '30000000000'});
 });
 
 describe('Deploye a Contract',()=>{

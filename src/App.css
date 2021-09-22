@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,51 @@
   to {
     transform: rotate(360deg);
   }
+} */
+a{
+  font-weight: bold;
+padding: 20px;
+margin  : 20px;
+  background-color: greenyellow;
+  color: rgb(51, 159, 209) !important;
+
+}
+.navbar-brand img{
+  padding: 25px;
+  background-color: greenyellow;
+
+}
+.banner-section{
+  position: relative;
+  overflow: hidden;
+}
+
+
+.banner-elements-part {
+  position: absolute;
+  right: 7%;
+  bottom: -25px;
+  width: 930px;
+  height: 775px;
+  background-position: center;
+  background-size: cover;
+}
+.banner-elements-part.active .element-one {
+    top: 62%;
+    left: 49%;
+    z-index: 2;
+    opacity: 1;
+}
+.lottery{
+background-color: greenyellow;
+}
+li{
+}
+.nav-item NavLink{
+  background-color: grey;
+  border: 2px solid red;
+}
+li:first-line { 
+  border: 2px solid red;
+
 }
